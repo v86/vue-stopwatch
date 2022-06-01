@@ -83,7 +83,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style>
 .timer {
   margin: 0 2em 1em;
 }
@@ -93,7 +93,7 @@ export default {
 }
 
 .running {
-  position: relative; // for ::after positioning
+  position: relative; /* for ::after positioning */
 }
 
 .running::after {
